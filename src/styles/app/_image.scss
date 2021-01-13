@@ -1,32 +1,43 @@
 .bg-image-login {
-    /* The image used */
-    background-image: url("../../assets/images/loginPage.jpg");
-    
-    /* Add the blur effect */
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-    
-    /* Full height */
-    height: 100%; 
-    
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* The image used */
+  background-image: url("../../assets/images/loginPage.jpg");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   }
 
-  .login-form {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-    color: white;
-    font-weight: bold;
-    border: 3px solid #f1f1f1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 30%;
-    padding: 20px;
-    // text-align: center;
-  }
+.login-form {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 30%;
+  padding: 20px;
+  // text-align: center;
+}
+
+img.homePageCarousel {
+  display: block;
+  width: 100%;
+  max-height: 300px !important;
+  min-width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center; // You can change this to bottom, right or left depending 
+   // on the position you want.
+}
